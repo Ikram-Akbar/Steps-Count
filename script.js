@@ -9,6 +9,10 @@ const increment = () => {
     count += 1;
     countEl.innerText = count;
 }
+const decrement = () =>{
+    count -= 1;
+    countEl.innerText = count;
+}
 
 const save = () => {
   
